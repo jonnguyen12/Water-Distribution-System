@@ -1,0 +1,3 @@
+.button:pressed {
+    -fx-opacity: 65%;
+}
