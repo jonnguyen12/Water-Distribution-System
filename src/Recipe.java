@@ -1,5 +1,3 @@
-package sample;
-
 /**
  * Created by phucnguyen on 1/20/16.
  */
