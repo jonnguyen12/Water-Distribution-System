@@ -76,7 +76,7 @@
                                     <Label text="0.02 ml - 2 ml Max" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="106.0" />
+                              <TextField fx:id="tf_dispenseVolume" prefHeight="27.0" prefWidth="106.0" />
                            </children>
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
@@ -91,7 +91,7 @@
                                     <Label text="0.02 ml - 2 ml Max" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="107.0" />
+                              <TextField fx:id="tf_suckbackVolume" prefHeight="27.0" prefWidth="107.0" />
                            </children>
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
@@ -106,7 +106,7 @@
                                     <Label text="0.5 ml - 5 ml Max" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="107.0" />
+                              <TextField fx:id="tf_reloadRate" prefHeight="27.0" prefWidth="107.0" />
                            </children>
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1">
@@ -121,7 +121,7 @@
                                     <Label text="0.5 ml - 5 ml Max" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="107.0" />
+                              <TextField fx:id="tf_dispenseRate" prefHeight="27.0" prefWidth="107.0" />
                            </children>
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
@@ -136,7 +136,7 @@
                                     <Label text="0.9 ml - 2 ml Max" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="106.0" />
+                              <TextField fx:id="tf_suckbackRate" prefHeight="27.0" prefWidth="106.0" />
                            </children>
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
@@ -151,7 +151,7 @@
                                     <Label text="00" textFill="#ffffffc8" />
                                  </children>
                               </VBox>
-                              <TextField prefHeight="27.0" prefWidth="107.0" />
+                              <TextField fx:id="tf_extra" prefHeight="27.0" prefWidth="107.0" />
                            </children>
                         </HBox>
                      </children>

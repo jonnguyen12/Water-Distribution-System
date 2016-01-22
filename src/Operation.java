@@ -11,29 +11,29 @@ public class Operation {
 
         return operation;
     }
-
-    public Operation() {}
-
-
-    public void saveRecipe(Recipe recipe) {
-
-    }
-
-    public void uploadRecipe(Recipe recipe) {
-
-    }
-
-    public Recipe download(Recipe recipe) {
-
-    }
-
-    public boolean run() {
-
-    }
-
-    public boolean testDispense() {
-
-    }
+//
+//    public Operation() {}
+//
+//
+//    public void saveRecipe(Recipe recipe) {
+//
+//    }
+//
+//    public void uploadRecipe(Recipe recipe) {
+//
+//    }
+//
+//    public Recipe download(Recipe recipe) {
+//
+//    }
+//
+//    public boolean run() {
+//
+//    }
+//
+//    public boolean testDispense() {
+//
+//    }
 
 
 }

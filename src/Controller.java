@@ -2,11 +2,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 
 public class Controller {
+
+
     @FXML
     private Button uploadButton;
     @FXML
@@ -20,7 +23,24 @@ public class Controller {
 
     @FXML
     private TextArea systemTextArea;
+
+    @FXML
     private TextArea pumpStatusTextArea;
+
+    @FXML
+    private TextField tf_dispenseVolume;
+
+    @FXML
+    private TextField tf_suckbackVolume;
+    @FXML
+    private TextField tf_reloadRate;
+    @FXML
+    private TextField tf_dispenseRate;
+    @FXML
+    private TextField tf_suckbackRate;
+    @FXML
+    private TextField tf_extra;
+
 
     //images for button
     private ImageView uploadIMV, downloadIMV, saveIMV, runIMV, testIMV;
@@ -30,6 +50,9 @@ public class Controller {
         getAllImageViewsForButtons();
         configureWidthHeightForImageViews();
         configureButtons();
+
+        // set up textfields validation
+
     }
 
     private void configureWidthHeightForImageViews() {
