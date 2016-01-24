@@ -4,36 +4,36 @@
 public class Operation {
     private static Operation operation;
 
-    public Operation sharedOperation() {
+    public static Operation sharedOperation() {
         if  (operation == null) {
             operation = new Operation();
         }
 
         return operation;
     }
-//
-//    public Operation() {}
-//
-//
-//    public void saveRecipe(Recipe recipe) {
-//
-//    }
-//
-//    public void uploadRecipe(Recipe recipe) {
-//
-//    }
-//
-//    public Recipe download(Recipe recipe) {
-//
-//    }
-//
-//    public boolean run() {
-//
-//    }
-//
-//    public boolean testDispense() {
-//
-//    }
+
+    public Operation() {}
+
+
+    public void saveRecipe(Recipe recipe) {
+
+    }
+
+    public Recipe uploadRecipe() {
+
+    }
+
+    public Recipe download(Recipe recipe) {
+
+    }
+
+    public boolean run() {
+
+    }
+
+    public boolean testDispense() {
+
+    }
 
 
 }
