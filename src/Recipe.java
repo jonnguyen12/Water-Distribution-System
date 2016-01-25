@@ -3,7 +3,9 @@
  */
 
 import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 
 
 public class Recipe {
@@ -13,14 +15,16 @@ public class Recipe {
     private DoubleProperty suckbackRate;
     private DoubleProperty extra;
     private DoubleProperty reloadRate;
+    private IntegerProperty recipeNumber;
 
-    public Recipe(double dispenseVolume,double dispenseRate, double suckbackVolume, double suckbackRate, double extra, double reloadRate) {
+    public Recipe(int recipeNumber, double dispenseVolume,double dispenseRate, double suckbackVolume, double suckbackRate, double extra, double reloadRate) {
         this.dispenseVolume = new SimpleDoubleProperty(dispenseVolume);
         this.suckbackVolume = new SimpleDoubleProperty(suckbackVolume);
         this.suckbackRate = new SimpleDoubleProperty(suckbackRate);
         this.dispenseRate = new SimpleDoubleProperty(dispenseRate);
         this.extra = new SimpleDoubleProperty(extra);
         this.reloadRate = new SimpleDoubleProperty(reloadRate);
+        this.recipeNumber = new SimpleIntegerProperty(recipeNumber);
 
     }
 
@@ -113,6 +117,15 @@ public class Recipe {
     }
 
 
+    public int getRecipeNumber() {
+        return recipeNumber.get();
+    }
 
+    public IntegerProperty recipeNumberProperty() {
+        return recipeNumber;
+    }
 
+    public void setRecipeNumber(int recipeNumber) {
+        this.recipeNumber.set(recipeNumber);
+    }
 }

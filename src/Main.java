@@ -10,7 +10,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Controller");
-        Scene scene = new Scene(root, 1028, 720);
+        Scene scene = new Scene(root, 860, 640);
         scene.getStylesheets().add("style.css");
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
