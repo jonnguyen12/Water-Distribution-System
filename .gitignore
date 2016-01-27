@@ -3,3 +3,6 @@
 *.idea
 out
 Water-Distribution-System.iml
+/bin/
+.project
+.classpath
